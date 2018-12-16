@@ -1,0 +1,37 @@
+.headers h2,
+.results h2,
+.equals h2 {
+	display: inline;
+}
+
+.checkpoint {
+	padding-right: 115px;
+}
+
+#date {
+	padding-right: 10px;
+}
+
+#equals {
+	padding-right: 100px;
+}
+
+pre {
+	display: inline;
+}
+
+#open {
+	padding-left: 100px;
+}
+
+#close {
+	padding-left: 170px;
+}
+
+#first {
+	padding-right: 105px;
+}
+
+#second {
+	padding-right: 10px;
+}

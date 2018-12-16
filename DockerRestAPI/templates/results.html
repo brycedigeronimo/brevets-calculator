@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>
+
+	<link rel="stylesheet" href="static/results.css">
+</head>
+<body>
+	<div>
+		<h2>{{ items[0]['distance'] }}km ACP Brevet</h2>
+	</div>
+	<div class="headers">
+		<h2 class="checkpoint">Checkpoint</h2>
+		<h2 id="date">Date</h2>
+		<h2>Time</h2>
+	</div>
+	<div class="equals">
+		<h2 id="first">=========</h2>
+		<h2 id = "second">====</h2>
+		<h2>====</h2>
+	</div>
+	
+	<div class="results">
+		{% for item in items %}
+			<h2> {{ item.km }}km </h2>
+			<h2 id="open"> open:{{ item.open }} <h2>
+			<br>
+			<h2 id="close"> close:{{ item.close }} <h2>
+			<br>
+			<br>
+		{% endfor %}
+	</div>
+	
+</body>
+</html>
